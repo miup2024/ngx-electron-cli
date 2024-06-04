@@ -1,0 +1,1 @@
+ng new demo --skipInstall=true --commit=false --style=scss --strict=true --routing=true --minimal=true --force=true --inline-template=false --inline-style=false --skip-git=true --skip-tests=true
