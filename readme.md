@@ -1,1 +1,23 @@
-ng new demo --skipInstall=true --commit=false --style=scss --strict=true --routing=true --minimal=true --force=true --inline-template=false --inline-style=false --skip-git=true --skip-tests=true
+# angular electron cli
+
+### 1 install
+
+npm i @angular/cli -g
+
+npm i @miup/ngx-electron-cli -g
+
+### 2 create project
+
+ngx-electron init project-name
+
+### 3 run project
+
+cd project-name
+
+npm run serve
+
+### 4 build electron
+
+cd project-name
+
+npm run build
